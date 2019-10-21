@@ -1,5 +1,7 @@
 import numpy
 from numpy import linalg as lin
+from scipy import stats as stats
+import math
 
 A = [[1, 7, 3],
      [1/7, 1, 2],
@@ -30,9 +32,33 @@ def satty_index(matrix):
     return CI.real
 
 
+def gmm(matrix):
+    vector_matrix = []
+    n = numpy.size(matrix, 1)
+    for i in range(n):
+        result = stats.gmean(matrix[i])
+        vector_matrix.append(result)
+    sum_vector = numpy.sum(numpy.abs(vector_matrix))
+    final_matrix = vector_matrix/sum_vector
+    return final_matrix
+
+
+def geo_index(matrix):
+    n = numpy.size(matrix, 1)
+    vector = gmm(matrix)
+    sum = 0
+    for i in range(n):
+        for j in range(i+1, n):
+            sum += math.pow(math.log10(matrix[i][j]*(vector[j]/vector[i])), 2)
+    IG = 2/((n-1)*(n-2))*sum
+    return IG
+
+
 indexA = satty_index(A)
 indexB = satty_index(B)
 indexC = satty_index(C)
 indextest = satty_index(test)
 
-print(indexA, indexB, indexC, indextest)
+#index_geo_A = geo_index(A)
+index_geo_test = geo_index(test)
+print(index_geo_test)
