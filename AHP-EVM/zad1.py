@@ -42,7 +42,7 @@ c8 = [[1, 1/2, 1/2],
       [2,   1,   1],
       [2,   1,   1]]
 
-##wektory własne w - wartości własne, v - wektory własne 
+#wektory własne w - wartości własne, v - wektory własne
 w1, v1 = lin.eig(c1)
 w2, v2 = lin.eig(c2)
 w3, v3 = lin.eig(c3)
