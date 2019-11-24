@@ -155,12 +155,12 @@ print("Do E allow ties?: ", allow_ties(E))
 print("Do F allow ties?: ", allow_ties(F), "\n")
 
 # 4
-print("Generalised Kendal Index for A: ", generalised_kendall_index(A))
-print("Generalised Kendal Index for B: ", generalised_kendall_index(B))
-print("Generalised Kendal Index for C: ", generalised_kendall_index(C))
-print("Generalised Kendal Index for E: ", generalised_kendall_index(E))
-print("Generalised Kendal Index for F: ", generalised_kendall_index(F), "\n")
+print("Generalised Kendall Index for A: ", generalised_kendall_index(A))
+print("Generalised Kendall Index for B: ", generalised_kendall_index(B))
+print("Generalised Kendall Index for C: ", generalised_kendall_index(C))
+print("Generalised Kendall Index for E: ", generalised_kendall_index(E))
+print("Generalised Kendall Index for F: ", generalised_kendall_index(F), "\n")
 
 # 5
-print("Classical Kendal Index for A: ", classical_kendall_index(A))
-print("Classical Kendal Index for F: ", classical_kendall_index(F))
+print("Classical Kendall Index for A: ", classical_kendall_index(A))
+print("Classical Kendall Index for F: ", classical_kendall_index(F))
