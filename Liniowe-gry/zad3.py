@@ -7,9 +7,11 @@ A1 = numpy.array([[0, 2, -3, 0],
                  [3, 0, 0, -4],
                  [0, -3, 4, 0]])
 
-b = [-1, -1, -1, -1]
+A1 = numpy.transpose(A1)
 
-c = [1, 1, 1, 1]
+b = numpy.array([-1, -1, -1, -1])
+
+c = numpy.array([1, 1, 1, 1])
 
 shift = numpy.abs(numpy.min(A1))
 A1 += shift
@@ -39,7 +41,8 @@ A2 = numpy.transpose(A2)
 
 shift = numpy.abs(numpy.min(A2))
 A2 += shift
-A2 *= (-1)
+b *= (-1)
+c *= (-1)
 
 result = linprog(c, A2, b).x
 
