@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b3ce5dc-6ba7-45af-a40f-6db7dbcf19db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Kendall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kendall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kendall/zad1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kendall/zad1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dualne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dualne/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +39,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zad2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="629">
               <caret line="37" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://Z:/java/java_exercises/lab4/src/Crypto/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +82,7 @@
         <option value="$PROJECT_DIR$/zad2/src/Stacks.java" />
         <option value="$PROJECT_DIR$/zad2/src/Player.java" />
         <option value="$PROJECT_DIR$/zad2.py" />
+        <option value="Z:/java/java_exercises/lab4/src/Crypto/Main.java" />
       </list>
     </option>
   </component>
@@ -108,15 +124,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="Z:/java/java_exercises/lab4/src/Crypto/Polibiusz.java" />
+    <property name="last_opened_file_path" value="Z:/erlang" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -225,17 +243,18 @@
       <workItem from="1574203749773" duration="599000" />
       <workItem from="1574259963697" duration="1663000" />
       <workItem from="1574414915529" duration="51000" />
+      <workItem from="1576797559749" duration="205000" />
+      <workItem from="1578592073628" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6489000" />
+    <option name="totallyTimeSpent" value="6738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -315,9 +334,6 @@
         <state relative-caret-position="-102" />
       </provider>
     </entry>
-    <entry file="file://Z:/java/java_exercises/lab4/src/Crypto/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/zad2/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -351,8 +367,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zad2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="629">
           <caret line="37" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/java/java_exercises/lab4/src/Crypto/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
